@@ -19,4 +19,8 @@ export class CartService {
     this.items = [];
     return this.items;
   }
+
+  itemsLength(){
+    return this.items.length;
+  }
 }
