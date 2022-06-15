@@ -1,0 +1,13 @@
+<h2>Products</h2>
+
+<div *ngFor="let animal of animals; index as i">
+
+    <h3>
+        <a routerLink="animals/{{i}}">
+            {{ animal.name }}
+        </a>
+    </h3>
+    <p *ngIf="animal.description">
+        Description: {{animal.description}}
+    </p>
+</div>
