@@ -1,5 +1,6 @@
 export interface IProducts {
     name: string;
     price: number;
-    description?: string; // optional property
+    description?: string;
+    img?: string;
     }

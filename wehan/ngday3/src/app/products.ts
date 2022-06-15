@@ -6,7 +6,9 @@ export const products = [
   
       price: 3000,
   
-      description: 'very long and very wet'
+      description: 'very long and very wet',
+
+      img: 'assets/pics/snake.jpg'
   
     },
   
@@ -16,8 +18,9 @@ export const products = [
   
       price: 6969,
   
-      description: 'fast and furious'
+      description: 'fast and furious',
   
+      img:'assets/pics/rabbit.jpg'
     },
   
     {
@@ -26,7 +29,9 @@ export const products = [
   
       price: 9000,
   
-      description: 'aggressive + big mouth'
+      description: 'aggressive + big mouth',
+
+      img:'assets/pics/crocodile.jpg'
   
     }
   
